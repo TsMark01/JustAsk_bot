@@ -5,4 +5,4 @@ __pycache__/
 *.pyd
 .env
 *.log
-docker_data/       # Если используешь тома Docker
+docker_data/
