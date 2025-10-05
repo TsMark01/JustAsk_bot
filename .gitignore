@@ -1,0 +1,8 @@
+config.py          # Основной конфиг как Python-файл
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.log
+docker_data/       # Если используешь тома Docker
