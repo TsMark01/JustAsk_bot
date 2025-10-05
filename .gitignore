@@ -1,4 +1,4 @@
-config.py          # Основной конфиг как Python-файл
+Backend/config.py
 __pycache__/
 *.pyc
 *.pyo
