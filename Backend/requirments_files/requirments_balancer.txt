@@ -1,0 +1,14 @@
+typing
+fastapi[all]
+psycopg2-binary
+python-dotenv
+sqlalchemy==2.0.29
+gunicorn
+uvicorn
+pydantic
+asyncpg==0.28.0
+pyyaml
+httpx-oauth
+requests
+sentry-sdk[fastapi]
+aiohttp==3.8.4
