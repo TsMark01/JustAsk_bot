@@ -3,7 +3,7 @@ import json
 
 # API configuration
 BASE_URL = "https://api.deepseek.com"
-API_KEY = "sk-78da1a164bd14bb484d11571ff96ef9e"
+API_KEY = ""
 MODEL = "deepseek-chat"
 
 
