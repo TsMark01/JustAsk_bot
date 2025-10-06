@@ -1,10 +1,5 @@
 import requests
-import json
-
-# API configuration
-BASE_URL = "https://api.deepseek.com"
-API_KEY = "sk-78da1a164bd14bb484d11571ff96ef9e"
-MODEL = "deepseek-chat"
+from config
 
 
 def call_deepseek_api(prompt):
@@ -33,18 +28,3 @@ def call_deepseek_api(prompt):
     except requests.exceptions.RequestException as e:
         print(f"Error making API request: {e}")
         return None
-
-
-def main():
-    prompt = "Hello! Can you tell me about the benefits of using FastAPI for building APIs?"
-    response = call_deepseek_api(prompt)
-
-    if response and 'choices' in response:
-        print("Response from DeepSeek API:")
-        print(response['choices'][0]['message']['content'])
-    else:
-        print("Failed to get a valid response from the API.")
-
-
-if __name__ == "__main__":
-    main()

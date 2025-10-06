@@ -25,3 +25,8 @@ TELEGRAM_BOT_GROUPS_PORT = 8031
 TELEGRAM_BOT_GROUPS_URL = 'YOUR_GROUPS_URL'
 
 ENV_TYPE = 'YOUR_ENV_TYPE'
+
+
+deepseek_BASE_URL = "https://api.deepseek.com"
+deepseek_API_KEY = "sk-78da1a164bd14bb484d11571ff96ef9e"
+deepseek_MODEL = "deepseek-chat"
